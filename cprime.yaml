@@ -1,0 +1,19 @@
+config_schema:
+  type: object
+  required: []
+  properties: {}
+
+server_name: github-mcp
+command: npx
+args:
+  - -y
+    - @modelcontextprotocol/server-github
+env:
+  - name: GITHUB_PERSONAL_ACCESS_TOKEN
+  - value: "tp_SAMPLE_TOKEN_TOBE REPLACED"
+
+description: MCP Server for the GitHub API, enabling file operations, repository management, search functionality, and more
+owner: Ranjit Menon
+license: Apache-2.0
+package: github-mcp
+vendor: Cprime
